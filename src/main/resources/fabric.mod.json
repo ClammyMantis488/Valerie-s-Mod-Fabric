@@ -1,0 +1,35 @@
+{
+  "schemaVersion": 1,
+  "id": "val",
+  "version": "${version}",
+
+  "name": "Valerie's Mod",
+  "description": "This is an example description! Tell everyone what your mod is about!",
+  "authors": [
+    "vales0310",
+    "ClammyMantis488"
+  ],
+  "contact": {
+    "homepage": "https://fabricmc.net/",
+    "sources": "https://github.com/FabricMC/fabric-example-mod"
+  },
+
+  "license": "CC0-1.0",
+  "icon": "assets/modid/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "net.val.mod.ValMod"
+    ]
+  },
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.15.x"
+  },
+  "suggests": {
+    "flamingo": "*"
+  }
+}
